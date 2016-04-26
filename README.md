@@ -1,6 +1,8 @@
 # postgresqldatabase_tripsys
 This is a database dump of the Tripsys tables used by Tripodmaps Chui edition
 
+Restoring the PostgreSQL database backup
+----------------------------------------
 1. Install <b>PostgreSQL 9.5</b> on Ubuntu or Windows
 
 2. Install <b>pgAdmin 1.22.1</b>
@@ -17,7 +19,6 @@ This is a database dump of the Tripsys tables used by Tripodmaps Chui edition
 
 https://dl.dropboxusercontent.com/u/313489686/Postgresql/postgres_tripsys_db_rolenamepostgres.backup
 
-
 8. Select <b>postgres</b> from the <b>role name</b> list
-9. 
+
 9. Click OK to restore the database
