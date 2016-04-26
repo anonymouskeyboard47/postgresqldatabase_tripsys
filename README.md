@@ -1,6 +1,14 @@
 # postgresqldatabase_tripsys
 This is a database dump of the Tripsys tables used by Tripodmaps Chui edition
 
+
+Extracting the files
+-----------
+
+Use <b>7zip</b> to Extract the files. Start with the file ending with <b>.001</b>
+
+
+
 Restoring the PostgreSQL database backup
 ----------------------------------------
 1. Install <b>PostgreSQL 9.5</b> on Ubuntu or Windows
@@ -17,8 +25,13 @@ Restoring the PostgreSQL database backup
 
 7. Navigate to the location where you downloaded the file with the link below
 
-https://dl.dropboxusercontent.com/u/313489686/Postgresql/postgres_tripsys_db_rolenamepostgres.backup
-
 8. Select <b>postgres</b> from the <b>role name</b> list
 
 9. Click OK to restore the database
+
+
+Other sources of this file
+-----------
+This file is also available on DropBox via the link below.
+
+https://dl.dropboxusercontent.com/u/313489686/Postgresql/postgres_tripsys_db_rolenamepostgres.backup
