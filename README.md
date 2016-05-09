@@ -39,6 +39,7 @@ https://dl.dropboxusercontent.com/u/313489686/Postgresql/postgres_tripsys_db_rol
 Using certificates
 ------------
 REF: http://ubuntuforums.org/showthread.php?t=735020
+
 It is important to include SSL verification early on in your system. The instructions below will help you with setting up Postgresql servers with SSL. This certificate(s) can also be used for your software applications as well.
 
     openssl req -new -text -out server.req
